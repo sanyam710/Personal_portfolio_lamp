@@ -1,0 +1,36 @@
+button
+{
+    background-color: #6b5b95;
+  
+}
+a{
+    color: #6b5b95;
+}
+h3{
+    text-align: center;
+}
+
+#qwer{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-left: 500px;
+    width: 300px;
+    background-color:white;
+    align-items: center ;
+}
+
+h1
+{
+    color: black; 
+    background-color: #e6e2d3;
+    text-align: center;
+}
+
+body
+{
+    background-color:  #d5e1df;
+}
+h2
+{
+    margin-top: 80px;
+}

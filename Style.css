@@ -1,0 +1,92 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#6F93C2;
+    color:grey;
+
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 0px;
+    width:450px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+  }
+  
+  input[type=email], input[type=password] ,input[type="date"]{
+    width: 92%;
+    padding: 12px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-width: 1px;
+    background: white;
+    border-color: beige;
+  }
+  input[type=checkbox]{
+      margin-left: -100px;
+  }
+  #firstname {
+    width: 40%;
+    padding: 12px;
+    margin: 5px 20px 22px 20px;
+    float: left;
+    border-width: 1px;
+    background: white;
+    border-color: beige;
+  }
+  #lastname {
+    width: 40%;
+    padding: 12px;
+    margin: 5px 0 22px 20px;
+    float: left;
+    border-width: 1px;
+    background: white;
+    border-color: beige;
+  }
+ .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 13px 18px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+ 
+
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+  }
+  h1:before {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 2px;
+    background: grey;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  h1:after {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 2px;
+    background:grey;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+  #last{
+      color: white;
+  }
